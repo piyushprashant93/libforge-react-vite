@@ -1,14 +1,14 @@
 {
   "name": "libforge-react-vite",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "type": "module",
   "description": "CLI to scaffold React component libraries using Vite",
   "main": "src/index.js",
   "bin": {
-    "libforge-react-vite": "./bin/cli.js"
+    "libforge-react-vite": "./bin/cli.cjs"
   },
   "scripts": {
-    "build": "esbuild src/index.js --bundle --platform=node --outfile=bin/cli.js"
+    "build": "esbuild src/index.js --bundle --platform=node --outfile=bin/cli.cjs --banner:js='#!/usr/bin/env node'"
   },
   "repository": {
     "type": "git",

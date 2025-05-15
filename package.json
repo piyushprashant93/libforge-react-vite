@@ -1,0 +1,12 @@
+{
+  "name": "create-react-lib-vite",
+  "version": "1.0.0",
+  "type": "module",
+  "bin": {
+    "create-react-lib-vite": "./bin/index.js"
+  },
+  "dependencies": {
+    "prompts": "^2.4.2",
+    "fs-extra": "^11.1.1"
+  }
+}

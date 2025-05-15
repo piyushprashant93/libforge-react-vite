@@ -25,3 +25,4 @@ playground/node_modules/
 playground/dist/
 .env
 playground/.env
+package-lock.json

@@ -4874,11 +4874,11 @@ var require_prompts3 = __commonJS({
   }
 });
 
-// bin/index.js
+// src/index.js
 var import_prompts = __toESM(require_prompts3(), 1);
 var import_path2 = __toESM(require("path"), 1);
 
-// bin/template-content.js
+// src/template-content.js
 var packageJson = `{
   "name": "my-lib",
   "version": "0.1.0",
@@ -5101,7 +5101,7 @@ export default function Button({ label = 'Hello from Button', onClick }) {
   );
 }`;
 
-// bin/template.js
+// src/template.js
 var import_fs = __toESM(require("fs"), 1);
 var import_path = __toESM(require("path"), 1);
 var import_child_process = require("child_process");
@@ -5137,7 +5137,7 @@ function createTemplateFiles(targetDir, libName, useTypescript = true) {
   (0, import_child_process.execSync)("npm install", { cwd: import_path.default.join(targetDir, "playground"), stdio: "inherit" });
 }
 
-// bin/index.js
+// src/index.js
 async function main() {
   const response = await (0, import_prompts.default)([
     {

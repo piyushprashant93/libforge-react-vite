@@ -1,12 +1,36 @@
 {
-  "name": "create-react-lib-vite",
-  "version": "1.0.0",
+  "name": "libforge-react-vite",
+  "version": "1.0.1",
   "type": "module",
-  "bin": {
-    "create-react-lib-vite": "./bin/index.js"
+  "description": "CLI to scaffold React component libraries using Vite",
+  "main": "bin/index.js",
+  "scripts": {
+    "build:cli": "esbuild bin/index.js --bundle --platform=node --outfile=bin/cli.js"
   },
+  "bin": {
+    "libforge-react-vite": "./bin/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/piyushprashant93/libforge-react-vite.git"
+  },
+  "bugs": {
+    "url": "https://github.com/piyushprashant93/libforge-react-vite/issues"
+  },
+  "homepage": "https://github.com/piyushprashant93/libforge-react-vite#readme",
   "dependencies": {
-    "prompts": "^2.4.2",
-    "fs-extra": "^11.1.1"
+    "fs-extra": "^11.1.1",
+    "prompts": "^2.4.2"
+  },
+  "keywords": [
+    "react",
+    "vite",
+    "component-library",
+    "cli"
+  ],
+  "author": "Piyush Prashant",
+  "license": "MIT",
+  "devDependencies": {
+    "esbuild": "^0.25.4"
   }
 }

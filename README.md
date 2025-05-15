@@ -1,6 +1,6 @@
 // README.md
 
-# 🧱 create-react-lib-vite
+# 🧱 libforge-react-vite
 
 A modern CLI tool to scaffold React component libraries using **Vite**, with support for both **TypeScript** and **JavaScript**, and a built-in **Playground** for local testing.
 
@@ -22,7 +22,7 @@ A modern CLI tool to scaffold React component libraries using **Vite**, with sup
 ### Run the CLI
 
 ```bash
-npx create-react-lib-vite
+npx libforge-react-vite
 ```
 
 You’ll be prompted to:

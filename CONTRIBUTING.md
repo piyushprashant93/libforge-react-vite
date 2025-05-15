@@ -1,4 +1,4 @@
-# Contributing to create-react-lib-vite
+# Contributing to libforge-react-vite
 
 Thank you for your interest in contributing! Your help is appreciated and helps make this tool better for everyone.
 
@@ -8,8 +8,8 @@ Thank you for your interest in contributing! Your help is appreciated and helps 
 2. **Clone** your fork
 
    ```bash
-   git clone https://github.com/your-username/create-react-lib-vite.git
-   cd create-react-lib-vite
+   git clone https://github.com/piyushprashant93/libforge-react-vite
+   cd libforge-react-vite
    ```
 3. **Install dependencies**
 
@@ -46,7 +46,7 @@ Thank you for your interest in contributing! Your help is appreciated and helps 
 
 If you have an idea for a new feature:
 
-* [Open an issue](https://github.com/piyushprashant93/create-react-lib-vite/issues)
+* [Open an issue](https://github.com/piyushprashant93/libforge-react-vite/issues)
 * Clearly describe your idea and the use-case it solves
 
 ## Reporting Bugs

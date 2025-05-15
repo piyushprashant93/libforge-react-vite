@@ -2,7 +2,8 @@
 node_modules/
 /.pnp
 .pnp.js
-
+bin
+bin/*
 # Build outputs
 /dist
 /build

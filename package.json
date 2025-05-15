@@ -8,8 +8,12 @@
     "libforge-react-vite": "./bin/cli.cjs"
   },
   "scripts": {
-    "build": "esbuild src/index.js --bundle --platform=node --outfile=bin/cli.cjs --banner:js='#!/usr/bin/env node'"
+    "build": "esbuild src/index.js --bundle --platform=node --outfile=bin/cli.cjs --banner:js=\"#!/usr/bin/env node\""
   },
+  "files": [
+    "bin",
+    "src"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/piyushprashant93/libforge-react-vite.git"

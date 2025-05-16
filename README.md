@@ -105,7 +105,7 @@ To get started, please read our [CONTRIBUTING.md](./CONTRIBUTING.md) guide for d
 
 ---
 
-## 👤 Autho
+## 👤 Author
 
 **Piyush Prashant**  
 GitHub: [@piyushprashant93](https://github.com/piyushprashant93)

@@ -1,6 +1,6 @@
 {
   "name": "libforge-react-vite",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "type": "module",
   "description": "CLI to scaffold React component libraries using Vite",
   "main": "src/index.js",
